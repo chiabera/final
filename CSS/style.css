@@ -149,6 +149,7 @@ img {
   display: flex;
   gap: 60px;
   margin-top: 40px;
+  position: relative;
 }
 
 .parent_div {
@@ -163,4 +164,28 @@ img {
   border-radius: 25px;
   bottom: 16px;
   left: 16px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  background-color: #b53b1b;
+  border: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.arrow_left {
+  right: 101%;
+  bottom: 50%;
+}
+
+.arrow_right {
+  left: 101%;
+  bottom: 50%;
+}
+
+.arrows {
+  color: white;
 }
