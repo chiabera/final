@@ -1,0 +1,166 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+/* Header Style Starts Here */
+.navbar {
+  background-color: rgba(213, 144, 110, 0.52);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a.active {
+  color: #d5906e;
+}
+
+.navbar nav {
+  display: flex;
+  padding: 37px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_links {
+  display: flex;
+  gap: 60px;
+}
+
+.cart i {
+  color: white;
+}
+
+.earthly {
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.artistry {
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #d5906e;
+}
+
+/* Section HERO Style Starts Here */
+
+.hero {
+  background-image: url(/images/Rectangle\ 106.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 720px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.hero_header {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.hero_txt {
+  max-width: 751px;
+  text-align: center;
+  margin: 16px 0 91px 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 10px 70px;
+  border: 1px solid #d5906e;
+  border-radius: 10px;
+  color: white;
+}
+
+/* article_section style starts here */
+
+.article_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 160px 0;
+}
+
+.card_description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #b53b1b;
+  text-align: center;
+}
+
+/* Section Gallery Style */
+.gallery {
+  background-color: #402101;
+  padding: 96px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.header_style_one {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.two_imgs,
+.three_imgs {
+  display: flex;
+  gap: 60px;
+}
+
+.two_imgs {
+  margin-top: 40px;
+}
+
+/* Section latest_products Style */
+
+.latest_products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 160px;
+}
+
+.header_style_two {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 160px;
+}
+
+.four_imgs {
+  max-width: 1000px;
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.parent_div {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  color: #b53b1b;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 25px;
+  bottom: 16px;
+  left: 16px;
+}
